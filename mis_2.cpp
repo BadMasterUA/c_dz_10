@@ -5,7 +5,7 @@ private:
     double radius;
 
 public:
-    SimpleCircle():radius(0.0){}
+    SimpleCircle():radius(5.0){}
 
     void Set_radius(double new_radius){
         radius = new_radius;
@@ -17,9 +17,6 @@ public:
 
 
 int main(){
-    SimpleCircle MyCircle;
-    MyCircle.Set_radius(5.0); //задаем радиус
-
-
+    
     return 0;
 }
